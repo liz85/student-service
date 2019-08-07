@@ -10,21 +10,13 @@ public class ErrorDetails {
 	public String getExTime() {
 		return exTime;
 	}
-	public void setExTime(String exTime) {
-		this.exTime = exTime;
-	}
 	public String getCause() {
 		return cause;
-	}
-	public void setCause(String cause) {
-		this.cause = cause;
 	}
 	public String getMessage() {
 		return message;
 	}
-	public void setMessage(String message) {
-		this.message = message;
-	}
+	
 	public ErrorDetails(String exTime, String cause, String message) {
 		super();
 		this.exTime = exTime;

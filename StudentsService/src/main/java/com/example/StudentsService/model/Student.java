@@ -76,14 +76,6 @@ public class Student {
 	{
 		super();
 	}
-	public Student(String id, String name, Integer age, Integer marks, String grade) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.age = age;
-		this.marks = marks;
-		this.grade = grade;
-	}
 	
 	public Student( String name, Integer age, Integer marks) {
 		super();
